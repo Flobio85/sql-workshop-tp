@@ -110,3 +110,5 @@ USING gin (nom gin_trgm_ops);
 
 
 -- Question 8
+
+-- Après l'ajout des index, l'analye de l'exécution de la requête n'indique pas de diminution du temps d'exécution.

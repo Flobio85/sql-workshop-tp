@@ -14,6 +14,7 @@ CREATE TABLE disponibilite (
 
 
 -- Question 2
+-- Alter Table permet de modifier une table sans avoir à effacer et recréer la table
 ALTER TABLE reservation ADD COLUMN IdDisponibilite INT;
 
 ALTER TABLE reservation
@@ -61,7 +62,7 @@ EXECUTE FUNCTION check_disponibilite();
 
 -- Question 5
 
--- Voici les requêtes que pourraient utiliser un administrateur pour ajouter, modifier et supprimer
+-- Requêtes que pourraient utiliser un administrateur pour ajouter, modifier et supprimer
 INSERT INTO disponibilite (IdMateriel, DateDebut, DateFin) VALUES (1, '2025-07-01', '2025-07-15');
 
 UPDATE disponibilite
